@@ -13,18 +13,18 @@ To enhance the application's functionality, logging capabilities have been incor
 ## Preview 📸
 
 ### User Module
-[userLogin](./public/preview/login.png)
-[userDashboard](./public/preview/userDashboard.png)
+![userLogin](./public/preview/login.png)
+![userDashboard](./public/preview/userDashboard.png)
 
 ### Admin Module
-[adminLogin](./public/preview/adminLogin.png)
-[adminDashboard](./public/preview/adminDashboard.png)
-[adminProjectList](./public/preview/adminProjectList.png)
-[adminUsersList](./public/preview/adminUserList.png)
-[adminAssign](./public/preview/adminAssign.png)
+![adminLogin](./public/preview/adminLogin.png)
+![adminDashboard](./public/preview/adminDashboard.png)
+![adminProjectList](./public/preview/adminProjectList.png)
+![adminUsersList](./public/preview/adminUserList.png)
+![adminAssign](./public/preview/adminAssign.png)
 
 ### Logging Funtionality
-[loggingAspect](./public/preview/aspectlog.png)
+![loggingAspect](./public/preview/aspectlog.png)
 
 
 
