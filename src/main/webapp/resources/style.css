@@ -1,0 +1,145 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap')
+	;
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: #ecf3f4 !important;
+	width: 100%;
+	height: 100%;
+}
+
+.error {
+	color: red;
+}
+
+.page-wrapper{
+	margin: 0 auto;
+    max-width: 1100px;
+    padding: 0 30px;
+}
+
+/* HOME PAGE - LOGIN & REGISTER */
+.home, .admin{
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+.home h1, .admin h1 {
+	font-size: 50px;
+	text-align: center;
+	font-weight: 700;
+	color: #465461;
+}
+.admin h1{
+	color: #c4dcdf;
+}
+
+.login-form, .admin-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+	padding: 20px 60px;
+	background-color: #c4dcdf;
+	border-radius: 20px;
+	box-shadow: #393939 3px 4px 6px;
+}
+.admin-form{
+	background-color: #465461;
+	box-shadow: rgb(204, 219, 232) 3px 4px 6px;
+}
+
+.login-form form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.admin-form form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.login-form h2{
+	color: #465461;
+}
+.admin-form h2{
+	color: #c4dcdf;
+}
+.admin > p{
+	color: #c4dcdf;
+}
+/* NAVBAR */
+.navbar{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.navbar h1{
+	font-size: 35px;
+	font-weight: 700;
+	user-select: none;
+}
+
+/* ADMIN OPERATIONS */
+.admin-home p {
+	font-size: 20px;
+}
+.operations{
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	margin-top: 3rem;
+	align-items: center;
+}
+.op{
+	font-size: 30px;
+	text-decoration: none !important;
+	border-radius: 6px;
+	background-color: #c4dcdf;
+	padding: 10px 20px;
+	color: black;
+	font-weight: 500;
+	transition: 0.2s all ease;
+	user-select: none;
+}
+.op:hover{
+	transform: scale(1.1);
+	color: black;
+}
+.data-table{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+.data-table table{
+	width: 100%;
+	justify-content: center;
+	border-radius: 8px;
+}
+.data-table a{
+	text-decoration: none;
+	padding: 3px;
+	background-color: #c4dcdf;
+	color: black;
+	border-radius: 4px;
+}
+.data-table a:hover{
+	text-decoration: none;
+	color: white;
+	background-color: black;
+}
+form select{
+	padding: 3px 5px;
+	border-radius: 4px;
+}
